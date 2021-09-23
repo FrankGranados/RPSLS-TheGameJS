@@ -2,17 +2,21 @@ const   selection = document.getElementById("selection"),
         result = document.getElementById("result"),
         options = ["Piedra", "Papel", "Tijera", "Spock", "Lagarto"];
 
-var     vidas = 3;
-
 function machine_move() {   //SELECCIONA UN NUMERO ALEATORIO DEL 0 AL 2
     return Math.floor(Math.random() * 5);
-    
 }
 
-
 function play(humanMove) {
-    var machineMove = machine_move()
+    var machineMove = machine_move();
+    var hp = document.getElementById("hp");
+
     
+    
+    if (hp.textContent <= "0") {
+        result.innerHTML = "SE ACABO, ENTIENDELO ヽ(ಠ_ಠ)ノ"
+        return
+    }
+        
     document.getElementById("human").innerHTML = options[humanMove];
     document.getElementById("machine").innerHTML = options[machineMove];
 
@@ -29,19 +33,11 @@ function play(humanMove) {
         result.innerHTML = "Ganaste";    
     } else if (humanMove == machineMove) {        
         result.innerHTML = "Empate";
-    } else if (humanMove == "undefinded" ) {
-        result.innerHTML = "Selecciona otra vez";
     } else {
         result.innerHTML = "Perdiste";
+        hp.textContent -= 1
     }
     
-
 }
-
-
-
-
-
-
 
 
