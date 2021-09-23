@@ -19,32 +19,28 @@
     <main>
 
         
-        <p id="hp">4</p>
+        <p id="human_hp">4</p>
+        <p id="machine_hp">4</p>
 
 
         <div class="selection" id="selection">
-            <button class="piedra" onclick="play(0)">PIEDRA</button></p>
-            <button class="papel" onclick="play(1)">PAPEL</button></p>
-            <button class="tijera" onclick="play(2)">TIJERA</button></p>      
-            <button class="spock" onclick="play(3)">SPOCK</button></p>
-            <button class="lagarto" onclick="play(4)">LAGARTO</button></p>
+            <button class="piedra" onclick="play(0)">PIEDRA</button>
+            <button class="papel" onclick="play(1)">PAPEL</button>
+            <button class="tijera" onclick="play(2)">TIJERA</button>
+            <button class="spock" onclick="play(3)">SPOCK</button>
+            <button class="lagarto" onclick="play(4)">LAGARTO</button>
         </div>
 
         
         <div class="status" id="status">
-            <p id="human"></p> 
-            <p id="machine"></p>
-        
-            
+            <p id="humanSelect"></p> 
+            <p id="machineSelect"></p>         
             <p id="result"></p>
-
-
         </div>
 
-    
-        
-
-
+        <div class="reboot" id="reboot">
+            <button class="reboot" onclick="reboot()">REINICIAR JUEGO</button>
+        </div>
 
     </main>
 
