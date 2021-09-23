@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding-bottom: 50px;
+}
+
+
+body {
+    background-color: #293241;
+    font-family: 'Segoe UI';
+    color: white;
+
+}
