@@ -30,5 +30,5 @@ Instagram [@frankgranados86](https://www.instagram.com/frankgranados86/)
 
 <!-- ACKNOWLEDGEMENTS -->
 ### Acknowledgements
-*[Platzi](https://platzi.com/home)
-*[SamKass](http://www.samkass.com/theories/RPSSL.html)
+-[Platzi](https://platzi.com/home)
+-[SamKass](http://www.samkass.com/theories/RPSSL.html)
