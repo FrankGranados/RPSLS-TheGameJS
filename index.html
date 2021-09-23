@@ -18,22 +18,51 @@
 
     <main>
 
+        <section class="Move_display">
         
-        <p id="human_hp">4</p>
-        <p id="machine_hp">4</p>
+            <div>
+                <p>HOLA KE ASE</p>
+                <p id="human_hp">4</p>
+                <p id="machine_hp">4</p>
 
 
-        <div class="selection" id="selection">
-            <button class="piedra" onclick="play(0)">PIEDRA
-                <figure><img src="https://github.com/FrankGranados/RPSLS-TheGameJS/blob/main/images/rock.png?raw=true" alt=""></figure>
-            
-            </button>
-            <button class="papel" onclick="play(1)">PAPEL</button>
-            <button class="tijera" onclick="play(2)">TIJERA</button>
-            <button class="spock" onclick="play(3)">SPOCK</button>
-            <button class="lagarto" onclick="play(4)">LAGARTO</button>
-        </div>
 
+            </div><p>
+
+        </section>
+
+        <!-- MOVE'S SELECTION PANEL -->
+        <section class="selection_panel">
+
+            <!-- BUTTONS PANEL -->
+            <div class="selection" id="selection">
+                <button class="btn" onclick="play(0)">PIEDRA
+                    <figure>
+                        <img src="https://github.com/FrankGranados/RPSLS-TheGameJS/blob/main/images/hand-rock.png?raw=true" alt="">
+                    </figure>
+                </button>
+                <button class="btn" onclick="play(1)">PAPEL
+                    <figure>
+                        <img src="https://github.com/FrankGranados/RPSLS-TheGameJS/blob/main/images/hand-paper.png?raw=true" alt="">
+                    </figure>
+                </button>
+                <button class="btn" onclick="play(2)">TIJERA
+                    <figure>
+                        <img src="https://github.com/FrankGranados/RPSLS-TheGameJS/blob/main/images/hand-scissors.png?raw=true" alt="">
+                    </figure>
+                </button>
+                <button class="btn" onclick="play(3)">SPOCK
+                    <figure>
+                        <img src="https://github.com/FrankGranados/RPSLS-TheGameJS/blob/main/images/hand-lizard.png?raw=true" alt="">
+                    </figure>
+                </button>
+                <button class="btn" onclick="play(4)">LAGARTO
+                    <figure>
+                        <img src="https://github.com/FrankGranados/RPSLS-TheGameJS/blob/main/images/hand-spock.png?raw=true" alt="">
+                    </figure>
+                </button>
+            </div>
+        </section>
         
         <div class="status" id="status">
             <p id="humanSelect"></p> 

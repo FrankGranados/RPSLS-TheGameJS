@@ -1,5 +1,4 @@
-const   selection = document.getElementById("selection"),
-        boxResult = document.getElementById("result"),
+const   boxResult = document.getElementById("result"),
         humanSelect = document.getElementById("humanSelect"),
         machineSelect = document.getElementById("machineSelect"),
         human_hp = document.getElementById("human_hp"),
