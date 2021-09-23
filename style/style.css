@@ -18,7 +18,12 @@ body {
 }
 
 /* MOVE'S DISPLAY */
+.move_display {
+    display: grid;
+    
 
+
+}
 
 
 
