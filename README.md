@@ -11,7 +11,7 @@ The rules: "**Scissors cuts paper, paper covers rock, rock crushes lizard, lizar
 
 ![!The Rules¡](https://github.com/FrankGranados/RPSLS-TheGameJS/blob/main/images/RPSLS.png?raw=true)
 
-> Try the game on this [link]([https://frankgranados.github.io/RPSLS-TheGameJS])
+> Try the game on this [link](https://frankgranados.github.io/RPSLS-TheGameJS)
 
 <!-- CONTRIBUTING -->
 ### Contributing
@@ -25,10 +25,10 @@ Contributions are what make the open source community such an amazing place to l
 
 <!-- CONTACT -->
 ### Contact
-Twitter [@frankgranados86](https://twitter.com/frankgranados86)
-Instagram [@frankgranados86](https://www.instagram.com/frankgranados86/)
+- Twitter [@frankgranados86](https://twitter.com/frankgranados86)
+- Instagram [@frankgranados86](https://www.instagram.com/frankgranados86/)
 
 <!-- ACKNOWLEDGEMENTS -->
 ### Acknowledgements
--[Platzi](https://platzi.com/home)
--[SamKass](http://www.samkass.com/theories/RPSSL.html)
+- [Platzi](https://platzi.com/home)
+- [SamKass](http://www.samkass.com/theories/RPSSL.html)
