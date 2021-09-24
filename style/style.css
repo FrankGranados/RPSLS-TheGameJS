@@ -10,22 +10,77 @@ header {
 
 
 body {
-    background-color: #293241;
+    background-color: #00385f;
     font-family: 'Segoe UI';
-    color: white;
+    color: #f2bb05;
     
 
 }
 
-/* MOVE'S DISPLAY */
+/* PLAY MARKERS */
 .move_display {
     display: grid;
+    grid-template-columns: 1fr 2fr 100px 2fr 1fr;
     
+}
 
+.move_display img{
+    width: 150px;
+}
 
+.human_pane {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 150px 1fr;  
+    background-color: #43484a;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.machine_pane {
+    grid-column: 4;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 150px 1fr;
+    background-color: #43484a;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.health_a {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.health_b {
+    display: flex;
+    justify-content: flex-start ;
+}
+
+.move_images {
+    grid-row: 2;
+    grid-column: 2 span;
+    display: flex;
+    justify-content: center;
+}
+
+.select {
+    grid-row: 3;
+    grid-column: 2 span;
+    display: flex;
+    justify-content: center;
 }
 
 
+
+
+.box_result {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 3;
+}
 
 
 /* MOVE'S SELECTION PANEL */
@@ -43,10 +98,16 @@ body {
     border: 0;
 }
 .btn:hover {
-    color: tomato;
+    color: #f2bb05;
 }
 
 .selection img {
-    width: 150px;
-    height: 150;
+    width: 80px;
+}
+
+
+/* RESTART BUTTON */
+.restart {
+    display: flex;
+    justify-content: center;
 }
