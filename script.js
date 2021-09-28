@@ -25,8 +25,6 @@ function play(humanMove) {
     document.getElementById("humanSelect").innerHTML = options[humanMove];
     document.getElementById("machineSelect").innerHTML = options[machineMove];
     
-
-
     // GAME RESULT
     switch (result) {
         case 0:
@@ -46,9 +44,7 @@ function play(humanMove) {
 }
 
 // RANDOM MACHINE PLAY
-function machine_move() { 
-    return Math.floor(Math.random() * 5);
-}
+const machine_move = _ => Math.floor(Math.random() * 5);
 
 // VICTORY CONDITIONS
 function gameResult(humanMove,machineMove) { 

@@ -13,23 +13,25 @@ body {
     background-color: #00385f;
     font-family: 'Segoe UI';
     color: #f2bb05;
-    
+    justify-content: center;    
 
 }
 
 /* PLAY MARKERS */
 .move_display {
     display: grid;
-    grid-template-columns: 1fr 2fr 100px 2fr 1fr;
-    
+    grid-template-columns: 200px 150px 200px;
+    justify-content: center;
 }
 
 .move_display img{
-    width: 150px;
+    
+    
+    
 }
 
 .human_pane {
-    grid-column: 2;
+    grid-column: 1;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 150px 1fr;  
@@ -38,8 +40,16 @@ body {
     padding: 15px;
 }
 
+.box_result {    
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 .machine_pane {
-    grid-column: 4;
+    grid-column: 3;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 150px 1fr;
@@ -75,12 +85,7 @@ body {
 
 
 
-.box_result {    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    grid-column: 3;
-}
+
 
 
 /* MOVE'S SELECTION PANEL */
